@@ -33,8 +33,9 @@ func (c DailyCommand) Items(arg, data string) (items []alfred.Item, err error) {
 	}
 
 	heading := alfred.Item{
-		Title:    "Weather for " + loc.Name,
-		Subtitle: alfred.Line,
+		Title: "Weather for " + loc.Name,
+		// Subtitle: alfred.Line,
+		Subtitle: loc.Name,
 	}
 
 	if weather.URL != "" {

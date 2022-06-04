@@ -2,3 +2,4 @@ fio.json
 wund.json
 workflow/alfred-weather
 *.alfredworkflow
+go.sum
